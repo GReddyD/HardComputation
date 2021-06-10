@@ -1,8 +1,0 @@
-Server/Main.java
- Server.Main
-Server/Server.java
- Server.Server
-Client/Client.java
- Client.Client
-Client/Main.java
- Client.Main
