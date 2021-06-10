@@ -25,7 +25,7 @@ public class Server {
 		     BufferedReader inServer = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
 			while ((msg = inServer.readLine()) != null) {
 				if (msg.equals("end")) {
-					System.out.println("\nОтключение от сервера");
+					System.out.println("\nВыключение сервера");
 					break;
 				}
 				outServer.println(getFibonacciValue(msg));
